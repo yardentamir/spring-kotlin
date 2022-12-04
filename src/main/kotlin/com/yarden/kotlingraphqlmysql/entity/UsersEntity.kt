@@ -1,6 +1,5 @@
 package com.yarden.kotlingraphqlmysql.entity
 
-import org.hibernate.Hibernate
 import javax.persistence.*
 
 data class ViewUser(
