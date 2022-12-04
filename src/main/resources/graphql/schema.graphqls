@@ -1,0 +1,9 @@
+type Query {
+    books: [ViewBook]
+    users: [ViewUser]
+    hello: String
+}
+
+type Mutation {
+    world(name: String): String
+}
