@@ -31,22 +31,7 @@ data class Users(
     @JoinTable(
         name = "users_books",
         joinColumns = [JoinColumn(name = "idusers")],
-        inverseJoinColumns = [JoinColumn(name = "idbooks")]
-    )
+        inverseJoinColumns = [JoinColumn(name = "idbooks")],
+)
     val books: List<Books> = listOf()
-) {
-    override fun equals(other: Any?): Boolean {
-        if (this === other) return true
-        if (other == null || Hibernate.getClass(this) != Hibernate.getClass(other)) return false
-        other as Users
-
-        return idusers == other.idusers
-    }
-
-    override fun hashCode(): Int = javaClass.hashCode()
-
-    @Override
-    override fun toString(): String {
-        return this::class.simpleName + "(idusers = $idusers )"
-    }
-}
+)

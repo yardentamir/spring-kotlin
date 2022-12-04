@@ -1,4 +1,4 @@
-package com.yarden.kotlingraphqlmysql.controller
+package com.yarden.kotlingraphqlmysql.rest
 
 import com.yarden.kotlingraphqlmysql.entity.Books
 import com.yarden.kotlingraphqlmysql.entity.CreateBook

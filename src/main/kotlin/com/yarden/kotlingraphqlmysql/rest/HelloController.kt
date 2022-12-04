@@ -1,4 +1,4 @@
-package com.yarden.kotlingraphqlmysql.controller
+package com.yarden.kotlingraphqlmysql.rest
 
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory

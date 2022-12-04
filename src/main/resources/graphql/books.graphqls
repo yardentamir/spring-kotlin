@@ -1,0 +1,11 @@
+
+type ViewBook{
+    idbooks: Int,
+    title: String,
+    des: String,
+    pages: Int,
+    users: [String],
+}
+
+
+
